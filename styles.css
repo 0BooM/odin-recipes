@@ -1,0 +1,33 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-content{
+    text-align: center;
+}
+
+.homepage-li{
+    list-style: none;
+    font-size: 20px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+a{
+    color: rgb(85, 85, 236);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    background-color: rgba(31, 31, 31, 0.75);
+    color: white;
+}
+
+p{
+    font-style: italic;
+    color: rgba(31, 31, 31, 0.75);;
+}
