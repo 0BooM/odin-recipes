@@ -1,5 +1,10 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
 }
 
 #main-content{
@@ -16,18 +21,34 @@ h4{
 }
 
 a{
-    color: rgb(85, 85, 236);
     text-decoration: none;
     font-weight: bold;
+    color: rgb(167, 139, 102);
 }
 
-h1{
+h1 {
     text-align: center;
-    background-color: rgba(31, 31, 31, 0.75);
+    background-color: rgb(167, 139, 102);
     color: white;
+    padding: 6px 0;
+    width: 800px;
+}
+
+h1,
+.homepage-li li{
+    border-radius: 6px;
+    margin: 0 auto;
 }
 
 p{
     font-style: italic;
     color: rgba(31, 31, 31, 0.75);;
+}
+
+.homepage-li li{
+    background-color: rgb(255, 255, 255);
+    padding: 6px 0;
+    margin-bottom: 10px;
+    width: 600px;
+    border: 1px solid black;
 }
